@@ -6,6 +6,7 @@ public class LivingThing {
     private int attack;
     private boolean dead;
 
+
     public LivingThing (String name, int maximumHP, int attack) {
         this.name= name;
         hitPoint = maximumHP;
